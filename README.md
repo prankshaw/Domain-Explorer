@@ -7,6 +7,6 @@ Just download the script(.py) file and run it in your favorite IDE or terminal s
 ![Screenshot1](task_opengenus_1.jpg)
 
 ### Screenshot 2
-![Screenshot2](task_opengenus_2.jpg)
+![Screenshot2](task_opengenus-2.jpg)
 
 
