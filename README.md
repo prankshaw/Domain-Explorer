@@ -12,7 +12,8 @@ Just download the script(.py) file and run it in your favorite IDE supporting Py
 ### Screenshot 2
 ![Screenshot2](task_opengenus-2.jpg)
 
-## License
-MIT license
+# License
+Licensed under MIT-license
+https://prankshaw.mit-license.org/
 
 
