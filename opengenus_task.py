@@ -2,7 +2,7 @@ import urllib.request                                                         #I
 from urllib.parse import urlparse             
 from bs4 import BeautifulSoup
 
-url= input( "Enter the Url : ")                                               #Input the URL
+url= input( "Enter the Url to be Explored : ")                                #Input the URL
 page = urllib.request.urlopen(url)
 print("Total Size of web page is: " , len(page.read()), "bytes")              #Outputting size of web page in bytes
 
