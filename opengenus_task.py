@@ -16,7 +16,7 @@ for link in soup.find_all('a'):
     domains.append('{uri.scheme}://{uri.netloc}/'.format(uri=parsed_uri))     #Appending parse url to list named "Domains"
 
 print("The links present are:")
-print(links)                                                                  # Printing all links
+print(links)                                                                  #Printing all links
 print ("Total number of links in web page are : ", len(links) , "Links")      #Printing the total number of links
 count_dict = {i:domains.count(i) for i in domains}
 for c in count_dict:
