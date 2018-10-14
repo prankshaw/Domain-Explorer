@@ -8,5 +8,6 @@ Just download the script(.py) file and run it in your favorite IDE or terminal s
 
 ### Screenshot 2
 ![Screenshot2](task_opengenus-2.jpg)
+Licensed Under: https://prankshaw.mit-license.org/
 
 
