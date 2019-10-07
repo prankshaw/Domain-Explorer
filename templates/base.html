@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %} {% endblock %}</title>
+    {% block head %} {% endblock %}
+  </head>
+<body>
+  <header style="position: fixed;left: 0;top: 0;width: 100%;background-color: red;text-align: center;"> Welcome to Flask Website Analyzer   {% block header %} {% endblock %} </header>
+  	</br>
+
+	{% block body %} {% endblock %}
+
+  <footer style="position: fixed;left: 0;bottom: 0;width: 100%;background-color: red;text-align: center;">Thank You for Visting!!</footer>
+</body>
+</html>
