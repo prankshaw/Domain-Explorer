@@ -1,4 +1,5 @@
-# Domain-Explorer
+# Domain-Explorer<hr>
+https://prankshaw.github.io/Domain-Explorer/<br>
 Input any URL and all the links on web-page, types of domains, their count and sizeof web-page will be revealed.
 https://youtu.be/xEHceTdiZSA
 ## See it Working!
