@@ -8,10 +8,10 @@ Just download the script(.py) file and run it in your favorite IDE supporting Py
 ## Examples
 
 ### Screenshot 1
-![Screenshot1](task_opengenus_1.jpg)
+![Screenshot1](images/flask_initial.png)
 
 ### Screenshot 2
-![Screenshot2](task_opengenus-2.jpg)
+![Screenshot2](images/flask_output.png)
 
 # License
 Licensed under MIT-license
