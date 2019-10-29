@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>{% block title %} {% endblock %}</title>
-    {% block head %} {% endblock %}
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %} {% endblock %}</title>
+  <link rel="shortcut icon" href="images/weblogo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+  {% block head %} {% endblock %}
+</head>
+
 <body>
-  <header style="position: fixed;left: 0;top: 0;width: 100%;background-color: red;text-align: center;"> Welcome to Flask Website Analyzer   {% block header %} {% endblock %} </header>
-  	</br>
+  <header
+    style="position: fixed;left: 0;top: 0;width: 100%;background-color: red;text-align: center; text-align: center; size: 44px;">
+    <strong> Welcome to Website Analyzer</strong> {% block header %} {% endblock %} </header>
+  </br>
 
-	{% block body %} {% endblock %}
+  {% block body %} {% endblock %}
 
-  <footer style="position: fixed;left: 0;bottom: 0;width: 100%;background-color: red;text-align: center;">Thank You for Visting!!</footer>
+  <footer
+    style="position: fixed;left: 0;bottom: 0;width: 100%;background-color: black;text-align: center;padding: 12px;">
+    <strong> Thank You for
+      Visiting!! Made by <a target="blank" href="https://prankshaw.github.io" style="font-size: 14px;"> Pranjal
+        Rastogi</a></strong></footer>
 </body>
+
 </html>

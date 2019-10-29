@@ -1,23 +1,31 @@
 {% extends 'base.html' %}
 
-{% block title %} 
+{% block title %}
 Form
 {% endblock %}
 
 
-{% block head %} 
+{% block head %}
 
 {% endblock %}
 
 
-{% block body %} 
+{% block body %}
+<div
+	style="background-color: black; color: white; font-size: 24px; font-family: Arial, Helvetica, sans-serif; padding: 20px; text-align: center;">
+	<p> Input any URL and all the links on web-page, types of domains, their count and size of web-page will be
+		revealed.</p>
+</div>
+<br>
+<p style="font-family: Arial, Helvetica, sans-serif; font-size: 34px; text-align: center;">Enter URL to be analyzed </p>
 
-<p>Enter URL to be analyzed </p>
-
-    <form method="POST" action="{{ url_for('my_form_post') }}">
-    	Enter URL: <input name="variable" type="url">
-    	<input type="submit">
-	</form>
+<form method="POST" action="{{ url_for('my_form_post') }}" style="padding: 10px; font-size: 30px;">
+	Enter URL: <input name="variable" type="url">
+	<input type="submit"
+		style="background-color: black; border-radius: 24px; border-color: blueviolet; color: white; font-size: 26px; padding: 5px;"
+		onmouseover="
+		this.style.backgroundColor='blueviolet' ;this.style.color='black' ;this.style.fontSize='28px' ;"
+		onmouseout="this.style.backgroundColor='black';this.style.color='blueviolet';this.style.fontSize='26px';">
+</form>
 
 {% endblock %}
-    

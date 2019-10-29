@@ -1,16 +1,21 @@
 {% extends 'base.html' %}
 
-{% block title %} 
+{% block title %}
 
-	Page Not Found 
+Page Not Found
 
 {% endblock %}
 
 
 {% block body %}
 
- <h1>404 Error :(</h1>
- <p>What you were looking for is just not there.<p>
- <a href="{{ url_for('my_form') }}">Go somewhere nice</a>
+<h1 style="text-align: center;">404 Error :(</h1>
+<p style=" padding: 10px; font-size: 20px;">What you were looking for is just not there.<p>
+		<a href="{{ url_for('my_form') }}"
+			style="background-color: black; border-radius: 24px; border-color: chartreuse; color: chartreuse; font-size: 16px; padding: 5px; margin: 10px;"
+			onmouseover="
+ this.style.backgroundColor='chartreuse' ;this.style.color='black' ;this.style.fontSize='18px' ;"
+			onmouseout="this.style.backgroundColor='black';this.style.color='chartreuse';this.style.fontSize='16px';">Go
+			somewhere nice!! </a>
 
-{% endblock %}
+		{% endblock %}

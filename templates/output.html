@@ -6,7 +6,13 @@ Output
 
 {% block header %}
 
-<button><a href="/">Go back to home</a></button>
+<button
+    style="background-color: white; border-radius: 24px; border-color: black; color: black; font-size: 14px; padding: 5px;"
+    onmouseover="
+this.style.backgroundColor='black' ;this.style.color='white' ;this.style.fontSize='14px' ;"
+    onmouseout="this.style.backgroundColor='white';this.style.color='black';this.style.fontSize='14px';"><a
+        href="/"><strong>
+            Go back to home!! </strong></a></button>
 
 {% endblock %}
 
