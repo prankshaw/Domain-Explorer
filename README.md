@@ -5,10 +5,7 @@ Input any URL and all the links on web-page, types of domains, their count and s
 <strong>Youtube Video:</strong> https://youtu.be/xEHceTdiZSA
 ## See it Working!
 ![Gif1](domainexplorer.gif)
-<br>Just download the script(.py) file and run it in your favorite IDE supporting Python 3.x. To download python visit https://www.python.org/downloads/ and then run the script in IDLE (In-built interpreter) or in your choice of IDE.
-
-
-
+<br>Just download the script(.py) file and run it in your favorite IDE supporting Python 3.x. To download python visit https://www.python.org/downloads/ and pip all the requirements then run the script by moving to this folder and typing in terminal- <strong>python app.py</strong>
 # License
 Licensed under MIT-license
 https://prankshaw.mit-license.org/
